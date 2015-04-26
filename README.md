@@ -26,13 +26,6 @@ The solution was completed on 4.26.2015 for the April 2015 class.
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
-
 <i>Good luck!</i>
 
 
@@ -45,4 +38,16 @@ The solution was completed on 4.26.2015 for the April 2015 class.
 |output.txt       | output of the write.tables() call in step 5  |
 |./UCI HAR Dataset| Input dataset defined by the problem         |
 
-###
+### Setup
+The raw data is not downloaded with run_analysis.R from the repository, the raw data files must be placed in the original format in a directory named "UCI HAR Dataset" within the working directory.
+
+### Usage
+source (run_analysis.R)
+
+### Output
+allData: The script creates a tidy data set with test and train data concatenated under allData.
+allDataMelt: contains the same results as allData, converted to a narrow dataset
+output: contains the tidy data set with the average of each variable for each activity and subject.
+
+
+
