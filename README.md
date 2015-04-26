@@ -20,6 +20,7 @@ The solution was completed on 4.26.2015 for the April 2015 class.
 <i>https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip </i>
 
 <i>You should create one R script called run_analysis.R that does the following. </i>
+
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
@@ -45,9 +46,10 @@ The raw data is not downloaded with run_analysis.R from the repository, the raw 
 source (run_analysis.R)
 
 ### Output
-allData: The script creates a tidy data set with test and train data concatenated under allData.
-allDataMelt: contains the same results as allData, converted to a narrow dataset
-output: contains the tidy data set with the average of each variable for each activity and subject.
+
+* allData: The script creates a tidy data set with test and train data concatenated under allData.
+* allDataMelt: contains the same results as allData, converted to a narrow dataset
+* output: contains the tidy data set with the average of each variable for each activity and subject.
 
 
 
